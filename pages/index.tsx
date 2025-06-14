@@ -3,8 +3,8 @@ import Greet from '@/components/Greet'
 import splitbee from '@splitbee/web'
 
 interface Quote {
-  q: string;
-  a: string;
+  q: string
+  a: string
 }
 
 export default function Home({ quote }: { quote: Quote }) {
@@ -23,14 +23,14 @@ export default function Home({ quote }: { quote: Quote }) {
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://liburgayaa.vercel.app/" />
-        <meta property="og:title" content="Libur Ga Yaa? - Cek Libur & Quotes Harian" />
+        <meta property="og:title" content="Libur Ga Yaa? - Cek Libur &amp; Quotes Harian" />
         <meta property="og:description" content="Cari tahu apakah hari ini libur atau tidak, lengkap dengan quotes motivasi harian." />
         <meta property="og:image" content="https://liburgayaa.vercel.app/og-preview.png" />
 
         {/* Twitter */}
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://liburgayaa.vercel.app/" />
-        <meta property="twitter:title" content="Libur Ga Yaa? - Cek Libur & Quotes Harian" />
+        <meta property="twitter:title" content="Libur Ga Yaa? - Cek Libur &amp; Quotes Harian" />
         <meta property="twitter:description" content="Cari tahu apakah hari ini libur atau tidak, lengkap dengan quotes motivasi harian." />
         <meta property="twitter:image" content="https://liburgayaa.vercel.app/og-preview.png" />
       </Head>
@@ -41,7 +41,7 @@ export default function Home({ quote }: { quote: Quote }) {
 
           <div className="w-full rounded-md bg-white p-4 sm:p-6 shadow-sm sm:shadow-md">
             <p className="text-base sm:text-lg italic text-slate-700 leading-snug">
-              "{quote.q}"
+              &quot;{quote.q}&quot;
             </p>
             <p className="mt-3 text-sm text-slate-500">— {quote.a}</p>
           </div>
