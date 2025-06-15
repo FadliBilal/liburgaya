@@ -79,9 +79,9 @@ export default function Greet() {
       <h1 className="mb-4 text-center text-5xl font-bold sm:text-6xl md:text-7xl">
         Hari ini
         {isHoliday ? (
-          <span className="ml-3 text-green-500">Libur Cuy</span>
+          <span className="ml-3 text-green-500">Libur</span>
         ) : (
-          <span className="ml-3 text-sky-600">Kerja Cuy</span>
+          <span className="ml-3 text-sky-600">Kerja</span>
         )}
         !
       </h1>
