@@ -79,9 +79,9 @@ export default function Greet() {
       <h1 className="mb-4 text-center text-5xl font-bold sm:text-6xl md:text-7xl">
         Hari ini
         {isHoliday ? (
-          <span className="ml-3 text-green-500">libur</span>
+          <span className="ml-3 text-green-500">Libur Cuy</span>
         ) : (
-          <span className="ml-3 text-sky-600">kerja</span>
+          <span className="ml-3 text-sky-600">Kerja Cuy</span>
         )}
         !
       </h1>
@@ -89,7 +89,7 @@ export default function Greet() {
       <div className="h-64 w-64 md:h-80 md:w-80">
         <Image
           src={isHoliday ? '/sleep.gif' : '/work.gif'}
-          alt={isHoliday ? 'Kucing sedang tidur' : 'Kucing sedang bekerja'}
+          alt={isHoliday ? 'GIF sedang tidur' : 'GIF sedang bekerja'}
           width={400}
           height={400}
           priority
